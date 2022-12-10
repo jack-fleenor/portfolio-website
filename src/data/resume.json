@@ -1,0 +1,39 @@
+{
+  "summary": "I'm a full-stack developer with two years of experience utilizing React and Typescript to build enterprise-level web applications. Personally, I am currently using Python for data science and research applications while pursuing my Computer Science and Mathematics degree.",
+  "experience": [
+    {
+      "companyName": "Amazon",
+      "jobTitle": "React Developer ( Contract )",
+      "startDate": "August 2022",
+      "endDate": "December 2022",
+      "tags": [ "React", "Javascript", "APIs", "Frontend", "Material UI" ],
+      "description": "Lorem Ipsum, Lorem Ipsum Lorem Ipsum, Lorem Ipsum Lorem Ipsum, Lorem Ipsum Lorem Ipsum"
+    },
+    {
+      "companyName": "Mathison Projects",
+      "jobTitle": "Vue / React Developer",
+      "startDate": "April 2021",
+      "endDate": "August 2022",
+      "tags": ["Vue", "React", "Node", "Frontend", "Backend", "Python", "Data Science"],
+      "description": "Starting as an intern, I took a hands-on approach to master frameworks, languages, and software services. This dedication resulted in quickly advancing into a full-time position, working on client-facing enterprise contracts. Currently, I work on enterprise financial applications utilizing proprietary algorithms to conduct automated stock trades."
+    },
+    {
+      "companyName": "ZoomInfo",
+      "jobTitle": "Corporate Research Analyst",
+      "startDate": "December 2019",
+      "endDate": "June 2021",
+      "tags": ["Financial Research", "Data Entry"],
+      "description": "I provided exclusive scoops to businesses to leverage new information in closing contracts and making necessary adaptations to follow market trends. Working with  I routinely pulled from and helped maintain a database of over one million entries. Alongside this I researched financial information within records from the IRS and notated any changes in the financial status of companies with the database."
+    }
+  ],
+  "education": [
+    {
+      "schoolName": "Mountain Empire Community College",
+      "startDate": "December 2019",
+      "endDate": "Currently Enrolled",
+      "description": "Lorem Ipsum, Lorem Ipsum Lorem Ipsum, Lorem Ipsum Lorem Ipsum, Lorem Ipsum Lorem Ipsum"
+    }
+  ],
+  "preferedStack": [],
+  "funFacts": []
+}
