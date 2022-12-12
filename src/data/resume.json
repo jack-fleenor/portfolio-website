@@ -7,7 +7,7 @@
       "startDate": "August 2022",
       "endDate": "December 2022",
       "tags": [ "React", "Javascript", "APIs", "Frontend", "Material UI" ],
-      "description": "Lorem Ipsum, Lorem Ipsum Lorem Ipsum, Lorem Ipsum Lorem Ipsum, Lorem Ipsum Lorem Ipsum"
+      "description": "Responsible for the design of an internal web application focusing on both the user interface by utilizing Material-UI design patterns and API integration with existing Amazon libraries."
     },
     {
       "companyName": "Mathison Projects",
@@ -15,7 +15,7 @@
       "startDate": "April 2021",
       "endDate": "August 2022",
       "tags": ["Vue", "React", "Node", "Frontend", "Backend", "Python", "Data Science"],
-      "description": "Starting as an intern, I took a hands-on approach to master frameworks, languages, and software services. This dedication resulted in quickly advancing into a full-time position, working on client-facing enterprise contracts. Currently, I work on enterprise financial applications utilizing proprietary algorithms to conduct automated stock trades."
+      "description": "Starting as an intern, I took a hands-on approach to master frameworks, languages, and software services. This dedication resulted in quickly advancing into a full-time position, working on client-facing corporate contracts. My final project was developing an enterprise financial application utilizing proprietary algorithms developed by the team to conduct automated stock trades."
     },
     {
       "companyName": "ZoomInfo",
@@ -28,12 +28,20 @@
   ],
   "education": [
     {
-      "schoolName": "Mountain Empire Community College",
-      "startDate": "December 2019",
+      "schoolName": "Oregon State University",
+      "startDate": "August 2022",
       "endDate": "Currently Enrolled",
       "description": "Lorem Ipsum, Lorem Ipsum Lorem Ipsum, Lorem Ipsum Lorem Ipsum, Lorem Ipsum Lorem Ipsum"
     }
   ],
-  "preferedStack": [],
+  "technologies": [
+    "Amazon Web Services",
+    "Typescript",
+    "React",
+    "Vue 3",
+    "Node",
+    "Python",
+    "Django"
+  ],
   "funFacts": []
 }
