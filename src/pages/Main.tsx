@@ -26,7 +26,7 @@ const Main = () => {
     <div className="App">
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <img src={logo_white} style={{ height: '3em' }}/>
-        <h1 style={{ margin: '5px' }}>Hello, my name's Jack</h1>
+        <h1 style={{ margin: '5px' }}>Hello, my name's Jack test</h1>
       </div>
       <SocialLinks />
       <h3> { resume.summary } </h3>
