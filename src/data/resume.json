@@ -29,9 +29,15 @@
   "education": [
     {
       "schoolName": "Oregon State University",
-      "startDate": "August 2022",
-      "endDate": "Currently Enrolled",
-      "description": "Lorem Ipsum, Lorem Ipsum Lorem Ipsum, Lorem Ipsum Lorem Ipsum, Lorem Ipsum Lorem Ipsum"
+      "startDate": "Aug. 2022",
+      "endDate": "Current",
+      "program": "Bachelor's Degree in Computer Science and Mathematics" 
+    },
+    {
+      "schoolName": "University of Virginia's College at Wise",
+      "startDate": "Aug. 2014",
+      "endDate": "Nov. 2015",
+      "program": "Bachelor's Degree in Computer Science" 
     }
   ],
   "technologies": [

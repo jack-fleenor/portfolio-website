@@ -5,6 +5,7 @@ import logo_white from '../assets/logo_white.svg'
 import resume from '../data/resume.json';
 import '../App.css'
 import React from 'react';
+import SchoolLineItem from '../components/SchoolLineItem';
 
 const Main = () => {
   const [ isMobile, setIsMobile ] = React.useState(false);
@@ -29,17 +30,26 @@ const Main = () => {
         <h1 style={{ margin: '5px' }}>Hello, my name's Jack</h1>
       </div>
       <SocialLinks />
-      <h3> { resume.summary } </h3>
+      <div style={{paddingTop: '15px'}}> { resume.summary } </div>
+      <h2>
+        Technologies
+      </h2>
+      <ul style={{listStyleType: 'none', padding: 0, display: 'flex', justifyContent: 'space-around'}}>
+        { resume.technologies.map(technology => <li key={technology}>
+            <TechnologyLineItem technology={technology} isMobile={isMobile} />
+        </li> ) }
+      </ul>
       <div style={{ display: isMobile ? 'block': 'flex' }}>
         <div style={{ width: isMobile ? '100%': '20%' }}>
           <h2>
-            Technologies
+            Education
           </h2>
           <ul style={{listStyleType: 'none', padding: 0, display: isMobile ? 'flex': 'block', justifyContent: isMobile ? 'space-between': 'flex-start'}}>
-            { resume.technologies.map(technology => <li key={technology}>
-                <TechnologyLineItem technology={technology} isMobile={isMobile} />
+            { resume.education.map(school => <li key={school.schoolName}>
+                <SchoolLineItem school={school} isMobile={isMobile} />
             </li> ) }
           </ul>
+
         </div>
         <div style={{ width: isMobile ? '100%': '80%' }}>
           <h2>

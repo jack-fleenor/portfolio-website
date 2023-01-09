@@ -24,14 +24,10 @@ const TechnologyLineItem = (props: any) => {
   return <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
     {
       !isMobile ? <>
-      <div style={{width: '25%'}}>
-        <img src={technologyIcons[technology]} style={{width: '25px'}}  />
-      </div>
-      <div style={{width: '75%'}}>
+        <img src={technologyIcons[technology]} style={{width: '25px', marginRight: '15px'}}  />
         <h4>
           { technology }
         </h4>
-      </div>
       </> : <div>
         <img src={technologyIcons[technology]} style={{width: '25px'}}  />
       </div> 
